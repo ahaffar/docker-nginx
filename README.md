@@ -10,7 +10,8 @@ git clone https://github.com/ahaffar/docker-nginx.git
 ```
 
 * run the container 
-``` docker build -t alhaffar/static-nginx .
+``` bash
+docker build -t alhaffar/static-nginx .
 docker run -P -d --name static-site alhaffar/static-nginx
 ```
 
